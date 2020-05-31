@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by Vishalak-glitch (http://jsbin.com/nopiyad/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+   div.lesspixel {
+  background-color:  #b4b4b4;
+  padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  div.lesspixel {
+    display: none;
+  }
+}
+   
+</style>
+ 
+  <link =rel"stylesheet" type="text\css" https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<style id="jsbin-css">
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.phone-photo{
+  padding-top:70px;
+  height:650px;
+  float:left;
+  margin:10px;
+}
+
+body {
+  background-color: #eee;
+}
+
+#wrapper {
+  width: 500px;
+  height: 50%;
+  border: 0px solid #000;
+  margin: 80px auto;
+  padding: 10px;
+}
+
+.main-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  padding: 30px 80px;
+}
+
+.header {
+  border: 0px solid #000;
+  margin-bottom: 50px;
+}
+
+.header img {
+  height: 50px;
+  width: 175px;
+  margin: auto;
+  position: relative;
+  left: 40px;
+}
+
+.input-1,
+.input-2 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.overlap-text {
+  position: relative;
+}
+
+.overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #003569;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Overpass Mono', monospace;
+  letter-spacing: -1px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.sub-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  border: 1px solid #e6e6e6;
+  padding: 20px 50px;
+  background-color: #fff;
+}
+
+.s-part {
+  text-align: center;
+  font-family:"Arial Verdana ";
+  word-spacing: 1px;
+  font-weight: normal;
+}
+buttons{
+  padding:0px;
+  margin:0px auto;
+}
+
+.s-part a {
+  text-decoration: none;
+  text-align:centre;
+  cursor: pointer;
+  color: #0;
+  font-family:"Arial Verdana " ;
+  word-spacing: 1px;
+}
+
+input:focus {
+    background-color: yellow;
+}
+p{
+  text-align:centre;
+  padding:20px;
+}
+p1{
+  padding:50px;
+   margin:"1";
+    font-size:medium;
+    text-align:center;
+}
+p2{
+   margin:"1";
+    font-size:small;
+    text-align:center;
+  padding:60px;
+}
+ ul {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   display:inline;
+}
+
+li {
+  float:left;
+  
+}
+
+li a {
+  display: block;
+  color: steelblue;
+  text-align: right;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: ;
+}
+.apps-text{
+  font-size:15px;
+  font-weight:400;
+  margin:10px;
+  padding:20px;
+  position:relative;
+  bottom:10px;
+  left:170px;
+}
+.apps{
+  position:relative;
+  margin-top:20px;
+  left:80px;
+}
+.apps img{
+  width:140px;
+  height:40px;
+  
+}
+</style>
+</head>
+<body>
+                                                                                                                  <div class="lesspixel">
+<div class="contanier">
+ <div class="row">
+    <div class="col-sm-6" >
+ <img src="https://i.imgur.com/woBKzw8.png" class="phone-photo">
+  </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                                                                  
+
+<div id="wrapper">
+  <div class="main-content">
+    <div class="header">
+      <img src="https://i.imgur.com/zqpwkLQ.png" />
+    </div>
+    <div class="l-part">
+      <input type="text" placeholder="Username" class="input-1" />
+      <div class="overlap-text">
+        <input type="password" placeholder="Password" class="input-2" />
+        
+      </div>
+      <buttons>
+      <input type="button" value="Log in" class="btn" />
+      </buttons>
+    </div>
+    <p>
+    ---------------OR--------------
+    </p>
+    <p1><a style="color:steelblue" href="https://www.facebook.com">Login with facebook</a>
+    </p1><br>
+    <p2 >
+    <a style="color:steelblue" href="#">Forgot Password?</a>
+    </p2>
+  </div><br>
+  
+          
+  <div class="sub-content">
+    <div class="s-part">
+      Don't have an account?<a href="#">Sign up</a>
+      </div>
+  </div>
+  <p class="apps-text" >Get the App</p>
+  <div class="apps">
+   <a href="https://www.apple.com/shop">
+  <img src="https://i.imgur.com/xYdiCfT.png">
+   <img src="https://i.imgur.com/5xkHGEK.png" >             </div>
+</div>
+
+</body>
+       <br>
+      <br>
+     <br>
+  <footer>
+  
+  <ul>
+    <li><a href="https://about.instagram.com/about-us">About</a></li>
+    <li><a href="https://help.instagram.com/">Help</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://about.instagram.com/en_US/blog/">Press</a></li>
+    <li><a href="https://www.instagram.com/developer/">API</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://www.instagram.com/about/jobs/">Jobs</a></li>
+    <li><a href="https://help.instagram.com/519522125107875" class="green">Privacy</strong></a></li>
+  </ul>
+</footer>
+</html>
